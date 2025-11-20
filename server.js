@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
   // If promo matched → send special page
   if (promo === "rojabet") {
-    return res.sendFile(path.join(__dirname, "public", "lander", "dex.html"));
+    return res.sendFile(path.join(__dirname, "public", "class", "dex.html"));
   }
 
   // Normal visitor → homepage
